@@ -1,0 +1,37 @@
+.container{
+    width: 80%;
+    height: 50%;
+    border: 1px solid lightblue;  
+    margin: 0 auto;
+ }
+ 
+ .tabs{
+     display: flex;
+     border-bottom: 1px solid lightblue;
+     background-color: lightblue;
+ }
+ 
+ .tab{
+     padding: 10px; 
+ }
+ /* your code goes here */
+ .tab:hover{
+     cursor: pointer;
+     background-color: plum;
+ } 
+ 
+ .content{
+     padding:10px;
+ }
+ 
+ .content-body{
+ display: none;
+ }
+ 
+ .show{
+     display: block;
+ }
+ 
+ .active{
+     background-color: plum;
+ }

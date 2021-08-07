@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="instructions">
+        <h1>Dom Manipulation</h1>
+        <p>Use CSS and jquery to dynamically update the DOM</p>
+
+        <ol>
+            <li> Add a hover effect to the class tab. You will know its working if Facemasks and toner change to plum
+                when you hover over them.</li>
+            <li>Using jquery remove the active class form any element that currently has it. Then add the active class
+                to element that you clicked on. You know it worked if when you click on of the tabs that tab remains plum color.</li>
+            <li>Using jquery remove the show class that any element that has it. Then add the show class to the content
+                element that matches to the tab you clicked. You know it works that your content updates when you click the tab.</li>
+        </ol>
+    </div>
+    <div class="container">
+        <div class="tabs">
+            <div class="tab active">Cleanser</div>
+            <div class="tab">Facemasks</div>
+            <div class="tab">Toner</div>
+        </div>
+
+        <div class="content">
+
+            <div class="content-body show" id="Cleanser">
+                <h4>Cleanser</h4>
+                <p>Best Cleanser for face brightening.</p>
+            </div>
+            <div class="content-body" id="Facemasks">
+                <h4>Facemasks</h4>
+                <p>Best Facemask for anti-aging.</p>
+            </div>
+            <div class="content-body" id="Toner">
+                <h4>Toner</h4>
+                <p>Best toner for shrinking pores.</p>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
